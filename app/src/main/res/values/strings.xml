@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">My Updates - Rails</string>
-    <string name="hello_world">Hello news!</string>
+    <string name="refresh_button">Refresh</string>
 </resources>
