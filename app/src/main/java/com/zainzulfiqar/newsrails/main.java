@@ -42,7 +42,6 @@ public class main extends Activity {
                 @Override
                 public void onClick(View v) {
                     new updateNews().execute("http://www.zainzulfiqar.com");
-                    System.out.println("URL passed");
                 }
             });
         } else {
@@ -63,7 +62,7 @@ public class main extends Activity {
         else return false;
     }
 
-    /** Download thread for the news */
+    /** Launch HTTP GET thread to download JSON object from URL */
 
     private class updateNews extends AsyncTask<String, Void, String> {
         @Override
@@ -127,6 +126,8 @@ public class main extends Activity {
             return new String(buffer);
         }
     }
+
+    /** Code to parse the JSON*/
 }
 
 
