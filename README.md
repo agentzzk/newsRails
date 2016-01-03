@@ -1,3 +1,6 @@
+note: this project has two repos
+Rails web-app repo here: [newsRails_webapp](https://github.com/agentzzk/newsRails_webapp)
+
 # GroupUp
 GroupUp - an easy way to send a group of users the latest updates.
 
