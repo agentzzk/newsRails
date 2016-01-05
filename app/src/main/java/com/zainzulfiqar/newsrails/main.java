@@ -27,6 +27,7 @@ import android.app.Activity;
 public class main extends Activity {
 
     TextView onlineData;
+    String apiURL = "http://"
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +42,7 @@ public class main extends Activity {
             refresh.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    new updateNews().execute("http://www.zainzulfiqar.com");
+                    new updateNews().execute(apiURL);
                 }
             });
         } else {
